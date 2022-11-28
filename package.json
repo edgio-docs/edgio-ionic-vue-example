@@ -1,12 +1,12 @@
 {
-  "name": "layer0-ionic-vue-example",
+  "name": "edgio-ionic-vue-example",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "layer0:deploy": "layer0 deploy",
+    "edgio:deploy": "edgio deploy",
     "format": "prettier --write '**/*' --ignore-unknown"
   },
   "prettier": {
@@ -30,10 +30,10 @@
   },
   "devDependencies": {
     "@capacitor/cli": "3.3.3",
-    "@layer0/cli": "^4.13.9",
-    "@layer0/core": "^4.13.9",
-    "@layer0/devtools": "^4.13.9",
-    "@layer0/prefetch": "^4.13.9",
+    "@edgio/cli": "^5.0.4",
+    "@edgio/core": "^5.0.4",
+    "@edgio/devtools": "^5.0.4",
+    "@edgio/prefetch": "^5.0.4",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",

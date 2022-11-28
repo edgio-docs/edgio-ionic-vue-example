@@ -24,7 +24,7 @@ import '@ionic/vue/css/display.css'
 import './theme/variables.css'
 import './registerServiceWorker'
 
-import installDevtools from '@layer0/devtools/install'
+import installDevtools from '@edgio/devtools/install'
 
 const app = createApp(App).use(IonicVue).use(router)
 
